@@ -1,0 +1,72 @@
+.texto-centrado{
+	text-align: center;
+}
+.listado{
+	list-style-type: circle;
+	padding-left: 2rem;
+}
+.listado li{
+	margin-bottom: 1em;
+}
+
+
+
+a {
+	color:#ff9966;
+}
+a:hover {
+	color:white;
+}
+
+body {
+	overflow: visible;
+}
+
+
+article {
+	margin: 0 0 4rem 0;
+}
+aside {
+	margin: 0 0 4rem 0;
+	background: #ffe2da;
+	text-align: center;
+}
+h1 {
+	font-size: 2.5rem;
+}
+h1 a {
+	color:#ff9966;
+}
+
+
+	.boton {
+		float:left;
+	}
+	.anclaje {
+		float: none;
+	    display: flex;
+	    line-height: 1em;
+	    justify-content: space-around;
+	}
+	.anclaje a{
+		color:#ff9966;
+	}
+
+
+
+
+.galeria {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 
+}
+	.marco {
+		margin: 2.5rem 0 0 0;
+		font-style: oblique;
+	}
+
+.descripcion {
+		margin: 1rem 0rem;
+
+	}

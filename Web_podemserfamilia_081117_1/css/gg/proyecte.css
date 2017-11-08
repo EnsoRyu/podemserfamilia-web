@@ -1,0 +1,12 @@
+body {
+	overflow: visible;
+}
+section {
+	padding: 5em 2% 2% 2%;
+}
+article {
+	margin: 0 0 4rem 0;
+}
+h1 {
+	font-size: 2.5rem;
+}

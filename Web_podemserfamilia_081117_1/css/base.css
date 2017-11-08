@@ -1,0 +1,117 @@
+body {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+
+}
+.full{
+	background: rgb(255,226,218);
+	background: -moz-linear-gradient(-45deg, rgb(255,226,218) 0%, rgb(220,243,237) 100%);
+	background: -webkit-linear-gradient(-45deg, rgb(255,226,218) 0%,rgb(220,243,237) 100%);
+	background: linear-gradient(135deg, rgb(255,226,218) 0%,rgb(220,243,237) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe2da', endColorstr='#dcf3ed',GradientType=1 );
+
+	margin: 0px auto;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	position: fixed;
+	z-index: -1;
+}
+.scroll {
+	
+}
+header {
+	
+}
+
+section {
+	padding: 6rem 2% 2% 2%;
+}
+
+h1 {
+	color: #e7be52;
+	font-weight: bold;
+	text-decoration:none;
+	font-size: 2rem;
+}
+h1 a {
+	color: #e7be52;
+}
+h1 a:hover {
+	color:white;
+	text-decoration: none;
+}
+
+.menu{
+	color: #ff9966;
+	font-size: 50px;
+	z-index: 2;
+	position: fixed;
+	width: 100%;
+	background: #ffe2da;
+
+}
+.menu a:hover {
+	text-decoration: none;
+	color:white;
+}
+
+
+.menu-base{
+	background:#ffe2da;
+	padding: 2% 2% 0 2%;
+}
+
+	.boton {
+		cursor: pointer;
+		line-height: 0;
+		display: inline-block;
+		
+	}
+	.boton:hover {
+		color:white;
+	}
+	.botonajuste {
+		padding: 0% 2.5%;
+		font-size: 1.4em;
+		z-index: 3;
+    	position: absolute;
+    	line-height: 1;
+	}
+	.desplegable {
+		display: none;
+		clear:both;
+	}
+	.desplegable.desplegat{
+		background: rgb(255,226,218);
+		background: -moz-linear-gradient(-45deg, rgb(255,226,218) 0%, rgb(220,243,237) 100%);
+		background: -webkit-linear-gradient(-45deg, rgb(255,226,218) 0%,rgb(220,243,237) 100%);
+		background: linear-gradient(135deg, rgb(255,226,218) 0%,rgb(220,243,237) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe2da', endColorstr='#dcf3ed',GradientType=1 );
+		display: block;
+		position: fixed;
+    	width: 100%;
+	    height: 100%;
+	    left: 0;
+	    top: 0;
+
+	}
+	.desplegable li {
+		margin: 0.5em 0em;
+	}
+	.desplegable ul {
+		position: absolute;
+    	height: 100%;
+    	width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.nino {	
+		width: 80%;
+		max-width: 500px;
+	}
+	
+
